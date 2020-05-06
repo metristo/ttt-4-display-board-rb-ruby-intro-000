@@ -1,17 +1,10 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-grid = ["   ", " X ", " O "]
-def display_board(1)
-  puts "#{grid(0)}|#{grid(0)}|#{grid(0)}"
+board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
+def display_board(board)
+  puts "#{board(0)}|#{board(1)}|#{board(2)}"
   puts "-----------"
-  puts "#{grid(0)}|#{grid(0)}|#{grid(0)}"
+  puts "#{board(3)}|#{board(4)}|#{board(5)}"
   puts "-----------"
-  puts "#{grid(0)}|#{grid(0)}|#{grid(0)}"
-end
-def display_board(2)
-  puts "#{grid(0)}|#{grid(0)}|#{grid(0)}"
-  puts "-----------"
-  puts "#{grid(0)}|#{grid(1)}|#{grid(0)}"
-  puts "-----------"
-  puts "#{grid(0)}|#{grid(0)}|#{grid(0)}"
-end
+  puts "#{board(6)}|#{board(7)}|#{board(8)}"
+end 
